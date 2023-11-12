@@ -6,44 +6,53 @@
   font-size: 5em;
   text-align: center;
   height: 100vh;
-  display: flex;
+  display: flex block;
   flex-direction: column;
 }
 
 #header {
   background-color: #f3ca40;
-  height: 20vh;
+  height: 30vh;
   width: 100vw;
 }
 
 #middle {
-  height: 60vh;
+  height: 100vh;
   width: 100vw;
-  display: flex;
+  display: flexbox;
 }
 
 #main {
-  width: 80%;
-  display:flex;
+  width: 2vb;
+  display: flexbox;
 }
 
 #nav {
-  width: 20%;
+  text-align: center;
+  display:flexbox;
+  width: 100vw;
+  height: 20vh;
   background-color: #4b4e6d;
 }
 
 #articles {
-  width: 60vw;
+  text-align: center;
+  display:flexbox;
+  height: 20vh;
+  width: 100vw;
   background-color: #6a8d92;
 }
 
 #ads {
-  width: 20vw;
+  display:flexbox;
+  height: 20vh;
+  width: 100vw;
   background-color: #f2a541;
 }
 
 #footer {
-  height: 20vh;
+  display:flexbox;
+  height:40vh;
   width: 100vw;
   background-color: #f08a4b;
 }
